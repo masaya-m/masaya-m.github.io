@@ -64,7 +64,7 @@ img {
 
 .lead {
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.5;
   margin-bottom: 30px;
 }
 
@@ -143,8 +143,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 85vh;
+  height: 60vh;
   text-align: center;
+  background-image: url("/img/mv_back.jpg");
+  background-size: cover;
 }
 
 .mv-container {
@@ -153,22 +155,50 @@ img {
 
 .mv-title {
   font-size: 60px;
+  color: #e6e6e6;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 5px;
   letter-spacing: .1em;
 }
-.mv-subtitle {
+
+/*--------------------------------
+ About
+---------------------------------*/
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.profile-img {
+  width: 30%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.profile-img img {
+  border-radius: 50%;
+}
+.profile-body {
+  flex: 1;
+}
+.mgr-10{
+  letter-spacing: 2em;
+}
+.mgr-5{
+  letter-spacing: 0.5em;
+}
+.profile-body h3 {
   font-size: 20px;
-  font-weight: bold;
-  line-height: 1;
-  margin-bottom: 40px;
-  letter-spacing: .08em;
+  line-height: 1.8;
+}
+.profile-body p {
+  font-size: 15px;
+  line-height: 1.5;
 }
 
-.mv-text {
-  font-size: 16px;
-  line-height: 1.8;
+.profile-body p:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 /*--------------------------------
@@ -244,38 +274,10 @@ img {
 
 .skill-text {
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
-/*--------------------------------
- About
----------------------------------*/
-.profile {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.profile-img {
-  width: 20%;
-  margin-right: 30px;
-  border-radius: 50%;
-}
-.profile-img img {
-  border-radius: 50%;
-}
-.profile-body {
-  flex: 1;
-}
 
-.profile-body p {
-  font-size: 15px;
-  line-height: 1.8;
-}
-
-.profile-body p:not(:last-child) {
-  margin-bottom: 30px;
-}
 
 /*--------------------------------
  Contact
