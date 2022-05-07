@@ -1,0 +1,28 @@
+{
+  "name": "masaya-m.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "next dev",
+    "build" : "next build",
+    "start" : "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masaya-m/masaya-m.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masaya-m/masaya-m.github.io/issues"
+  },
+  "homepage": "https://github.com/masaya-m/masaya-m.github.io#readme",
+  "description": "",
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.1.0",
+    "react-do": "^1.1.6"
+  }
+}
